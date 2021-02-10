@@ -1,9 +1,9 @@
 def countA(w):
     count = 0
-    for i in range(len(w)):
+    for i in range(0, len(w)):
         if w[i] == "a":
-            count =  i
+            count = count + 1
     
     return count 
 
-print(countA("rat"))
+print(countA("raaataattaa"))
